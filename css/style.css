@@ -45,4 +45,24 @@ a{
 .art-label{
   font-style:italic;
   font-size:90%;
+  width:500px;
+}
+.materials{
+  font-style: normal;
+}
+.description-text{
+  width:730px;
+  padding-right:50px;
+  padding-top:50px;
+  font-size:18px;
+  text-align: left;
+  line-height: 30px;
+  font-weight: 300;
+  letter-spacing:0.01px;
+
+}
+#press-links{
+  margin:70px;
+  font-style: italic;
+  text-decoration: underline;
 }
