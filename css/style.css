@@ -1,6 +1,7 @@
 body{
   margin:0;
   padding:0;
+  background-color: #f0f0f0;
   background:linear-gradient(5deg, white, #f0f0f0);
   background-repeat: no-repeat;
   font-family:sans-serif;
@@ -66,4 +67,11 @@ a{
 .contactinfo{
   margin-top:20px;
   line-height: 22px;
+}
+.cv-category-title{
+  margin-top:30px;
+  font-weight: bold;
+}
+.exhibitions > p{
+  margin:20px;
 }
