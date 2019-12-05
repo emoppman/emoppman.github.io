@@ -78,10 +78,11 @@ a{
   margin:20px;
 }
 .lab::before{
+  /* font-weight: normal; */
   font-size:14px;
   font-style:italic;
   content:"Lab!";
-  color:pink;
+  color:#FFaacc;
   /* float: right; */
   position: absolute;
   left:40px;
