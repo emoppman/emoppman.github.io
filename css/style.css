@@ -3,7 +3,7 @@ body{
   padding:0;
   background-color: #f0f0f0;
   background:linear-gradient(5deg, white, #f0f0f0);
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat; */
   font-family:sans-serif;
 
 }
@@ -23,9 +23,11 @@ body{
 }
 .info-item{
   margin:10px;
+  font-weight: lighter;
 }
 .side-item{
   margin:10px;
+  font-weight: lighter;
 }
 .container{
   margin-left: 280px;
@@ -74,4 +76,16 @@ a{
 }
 .exhibitions > p{
   margin:20px;
+}
+.lab::before{
+  font-size:14px;
+  font-style:italic;
+  content:"Lab!";
+  color:pink;
+  /* float: right; */
+  position: absolute;
+  left:40px;
+
+  transform: rotate(-30deg);
+  /* left:-25px; */
 }
